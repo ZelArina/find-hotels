@@ -1,0 +1,78 @@
+.liked{
+    width: 360px;
+    height: 472px;  
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px;
+
+    border-radius: 16px;
+    box-shadow: 0px 4px 33px 0px rgba(0, 0, 0, 0.04);
+    background: rgb(255, 255, 255);
+}
+.liked > p{
+    color: rgb(66, 66, 66);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.raiting{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 0px;
+    margin-bottom: 16px;
+}
+.raiting .raitingBtn{
+    width: 89px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4px 8px 4px 8px;
+
+    box-sizing: border-box;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+
+    color: rgb(153, 160, 163);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.41px;
+    text-align: left;
+}
+.raiting .active{
+    border: 1px solid rgb(65, 82, 46);
+    color: rgb(65, 82, 46);
+}
+.hotelsLiked{
+    height: 526px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: scroll;
+}
+.favHotelInfo{
+    width: 296px;
+    margin-top: 16px;
+}
+
+.bottomLine{
+    width: inherit;
+    height: 1px;
+    border-radius: 8px;
+    background: rgba(135, 135, 135, 0.2);
+    margin-top: 16px;
+}

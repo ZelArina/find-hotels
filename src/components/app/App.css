@@ -1,0 +1,23 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: 'Roboto', sans-serif;
+}
+button, input {
+  font-family: 'Roboto', sans-serif;
+}
+input:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px white inset;
+}
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}

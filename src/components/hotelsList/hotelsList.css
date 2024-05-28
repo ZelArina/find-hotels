@@ -1,0 +1,125 @@
+.hotelsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.headerList{
+    width: 600px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 28px;
+}
+.choosedCity{
+    /* width: 331.67px; */
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 0px;
+    color: rgb(66, 66, 66);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.choosedDate{
+    color: rgb(65, 82, 46);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: right;
+}
+.sliders{
+    width: 600px;
+    height: 149px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-bottom: 28px;
+}
+.sliders img{
+    width: 164px;
+    height: 149px;
+}
+.likedCount{
+    /* width: 251px; */
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 0px;
+    margin-bottom: 20px;
+
+    color: rgb(66, 66, 66);
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: -0.41px;
+    text-align: left;
+}
+.likedCount span{
+    width: 10px;
+    color: rgb(65, 82, 46);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.41px;
+    text-align: left;
+    margin-right: 4px;
+}
+.hotelsList{
+    width: 600px;
+    height: 529px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: scroll;
+}
+.hotelWrapper{
+    width: 584px;
+}
+.hotel{
+    width: inherit;
+    height: 83px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 16px 16px 0px 0px;
+}
+.home{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: rgba(65, 82, 46, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotelsInfo{
+    width: 480px;
+    height: 67px;
+}
+.bottomLine{
+    width: inherit;
+}

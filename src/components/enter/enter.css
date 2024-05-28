@@ -1,0 +1,166 @@
+.pageOne{
+  height: 1024px;
+  background: url(../../../public/img/background/background.jpeg) center center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.enter{
+  /* position: absolute; */
+  width: 409px;
+  height: 382px;
+  /* left: 515px;
+  right: 516px;
+  top: 321px;
+  bottom: 321px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+
+  border-radius: 16px;
+  box-shadow: 0px 4px 33px 0px rgba(0, 0, 0, 0.04);
+  background: rgb(255, 255, 255);
+}
+
+.enter p{
+  position: static;
+  width: 345px;
+  height: 28px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
+  color: rgb(66, 66, 66);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.enter .enterForm{
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.enter .enterForm .loginPass{
+  position: static;
+  width: 345px;
+  height: 176px;
+  padding: 0px;
+
+  color: rgb(66, 66, 66);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.enter .enterForm .loginPass .error{
+  color: rgb(235, 23, 23);
+}
+.enter .enterForm .loginPass .login{
+  margin-bottom: 24px;
+}
+.enter .enterForm .loginPass .login.error{
+  margin-bottom: 3px;
+}
+
+.enter .enterForm .loginPass input{
+  position: static;
+  width: 345px;
+  height: 50px;
+  margin-top: 7px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 15px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(201, 202, 204);
+  border-radius: 4px;
+  background: rgb(255, 255, 255);
+  color: inherit;
+}
+.loginPass .errorMessage{
+  position: static;
+  height: 14px;
+  margin-top: 7px;
+
+  color: rgb(235, 23, 23);
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+  
+  
+.enter .enterForm .btn-enter{
+  position: static;
+  width: 345px;
+  height: 50px;
+
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-top: 32px;
+}
+  
+.btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(164.39deg, rgb(65, 82, 46) -10.645%,rgb(190, 128, 34) 114.2%);
+
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+  
+.btn:hover{
+  cursor: pointer;
+  background: 
+    linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    linear-gradient(164.35deg, rgb(65, 82, 46) -16.443%,rgb(190, 128, 34) 153.398%);
+}
+  
+.btn:active{
+  cursor: pointer;
+  background: 
+    linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(164.35deg, rgb(65, 82, 46) -16.443%,rgb(190, 128, 34) 153.398%);
+}
+.btn a{
+  color: inherit;
+  text-decoration: inherit;
+  height:inherit;
+  width: inherit;
+
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

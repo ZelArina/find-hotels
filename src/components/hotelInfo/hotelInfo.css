@@ -1,0 +1,117 @@
+
+.favHotel{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.firstLine{
+    width: inherit;
+    /* height: 22px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    gap: 10px;
+}
+.firstLine p{
+    /* width: 450px; */
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgb(66, 66, 66);
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: -0.41px;
+    text-align: left;
+    flex: 0 1 auto;
+    
+}
+.firstLine .heart{
+    display: block;
+    width: 21px;
+    height: 18px;
+    background: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: none;
+    padding: 0;
+    flex: 0 0 auto;
+    background-image: url(../../../public/img/heart/heart.svg);
+}
+.firstLine .heart:hover{
+    background-image: url(../../../public/img/heart/greyHeart.svg);
+}
+.firstLine .heart.active{
+    background-image: url(../../../public/img/heart/redHeard.svg);
+}
+.secondLine{
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: rgb(135, 135, 135);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.41px;
+    text-align: left;
+}
+.secondLine #dash{
+    width: 9px;
+    height: 1px;
+    border-radius: 2px;
+    background: rgb(196, 196, 196);
+}
+.secondLine > div:first-child{
+    margin-right: 5px;
+}
+.thirdLine{
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.thirdLine .stars{
+    margin-top: 5px;
+    height: 17px;
+}
+.thirdLine .stars svg:not(:first-child){
+    margin-left: 3px;
+}
+.thirdLine .price {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin-bottom: 4px;
+}
+.price div:first-child{
+    color: rgb(135, 135, 135);
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: -0.41px;
+    text-align: left;
+    margin-right: 8px;
+    width: 28px;
+    height: 18px;
+}
+.price div:not(:first-child){
+    color: rgb(66, 66, 66);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.41px;
+    text-align: right;
+    width: 74px;
+    height: 21px;
+}
